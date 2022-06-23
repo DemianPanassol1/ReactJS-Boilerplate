@@ -1,0 +1,38 @@
+{
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:import/recommended",
+		"plugin:jsx-a11y/recommended",
+		"plugin:react-hooks/recommended",
+		"prettier"
+	],
+	"plugins": ["simple-import-sort", "react"],
+	"rules": {
+		"simple-import-sort/exports": "error",
+		"react/prop-types": "error",
+		"react/require-default-props": "error",
+		"react/default-props-match-prop-types": "error",
+		"react/no-unused-prop-types": "error",
+		"react/forbid-foreign-prop-types": "error",
+		"react/forbid-prop-types": "error",
+		"react/sort-prop-types": "error",
+		"jsx-a11y/anchor-is-valid": [
+			"error",
+			{
+				"components": ["Link"],
+				"specialLink": ["hrefLeft", "hrefRight"],
+				"aspects": ["invalidHref", "preferButton"]
+			}
+		]
+	}
+}

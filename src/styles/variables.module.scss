@@ -1,0 +1,47 @@
+@import 'include-media/dist/include-media';
+
+//Colors;
+$primary: '';
+$secondary: '';
+$background: '';
+$black: '';
+$white: '';
+
+//Font Family;
+$font-family: '';
+
+//Font Weight;
+$font-weight-medium: '';
+$font-weight-bold: '';
+
+//Font Size;
+$small: '';
+$base: '';
+$h5: '';
+$h5-desktop: '';
+$h4: '';
+$h4-desktop: '';
+$h3: '';
+$h3-desktop: '';
+$h2: '';
+$h2-desktop: '';
+$h1: '';
+$h1-desktop: '';
+
+//Line Height;
+$line-height: 120%;
+
+//Breakpoints;
+$breakpoints: (
+	xs: 0px,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+);
+
+//Transitions;
+$transition: 0.25s all ease-in-out;
+$transition-image: background-image 0.25s ease-in-out;
+$transition-color: color 0.25s ease-in-out;
+$transition-background-color: background-color 0.25s ease-in-out;
